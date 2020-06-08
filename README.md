@@ -1,3 +1,3 @@
 # cards
-This project was created HTML and CSS creating simple card.
-This can be used on any site. 
+This project was utulised HTML and CSS to create simple card.
+
