@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    color: #444;
+    padding: 50px;
+    font-weight: 400;
+}
+
+.card_container{
+   width: 700px;
+   box-shadow: 0 0 15px rgb(0, 0, 0, 0.20);
+   display: flex;   
+   
+}
+
+.card_img{
+overflow: hidden;
+flex: 1;
+}
+
+.img_container{
+    min-height: 100%;
+}
+
+.card_content{
+    padding: 100px 40px; 
+    flex: 2;
+    
+}
+
+.card_title{
+    font-size: 35px;
+    font-weight: 800px;    
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.card_subtitle{
+    font-size: 14px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: limegreen;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+
+}
+
+.card_description{
+    font-size: 14px;
+    line-height: 1.8;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.card_price{
+    font-size: 35px;
+    font-weight: 800;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.card_button{
+    display: inline-block;
+    color: black;
+    background: limegreen;
+    text-decoration: none;
+    padding: 15px 25px;
+    
+}
+
+.card_button:hover{
+    background: green;
+    color: white;
+}
